@@ -48,6 +48,23 @@
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+  .attention{
+  	color: #2f2f2f;
+  }
+  .attention2{
+  	color: red;
+  }
+  .blink{
+		color: rgb (0, 137, 226);
+		
+		animation: blink 2s infinite;
+	 }
+	 
+	 @keyframes blink{
+		0%{opacity: 1;}
+		50%{opacity: 0;}
+		100%{opacity: 1;}
+	 }
   </style>
 </head>
 <body>
@@ -62,7 +79,7 @@
         <span class="icon-bar"></span>                        
       </button>
 
-      <a class="" href="#"><img id="logo" style="height: 60px;" src="nitw.png"></a>
+      <a class="navbar-brand" href="#">ACCESS18</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -76,12 +93,12 @@
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
-  <h1 class="margin">ACCESS - 2018</h1>
-
+<img id="logo" src="nitw.png">
+  <h1 class="margin" style="font-size: 3em;">ACCESS - 2018</h1>
     <h2>First Simulation Workshop on</h2>
     <h1>ASPEN and CFD (Ansys) for Chemical Engineering Students & Scholars</h1>
     <br>
-    4 – 15, June 2018
+    <h2>4 – 15, June 2018</h2>
     <br>
 </div>
 
@@ -109,7 +126,7 @@
 <!-- Third Container (Grid) -->
 <div class="container bg-3 text-center" id="about">
 <br>    
-  <h3 class="margin">ABOUT THE PROGRAM</h3><br>
+  <h1 class="margin">ABOUT THE PROGRAM</h1><br>
 
   <p>This workshop is mainly aimed at providing rich
   hands-on experience to the participants on the use of
@@ -125,7 +142,7 @@
   <br>
   The workshop includes 40 hours of classroom
   lectures and 30 hours of laboratory practice and is
-  offered for two credits. The participants are
+  <span class="attention2">offered for two credits.</span> The participants are
   evaluated on a continuous basis and their
   performance will be graded. A certificate indicating
   the credits and the grade obtained will be issued.
@@ -133,7 +150,7 @@
 
   <br>
   <br>
-  <h3 class="margin">COURSE CONTENTS:</h3>
+  <h2 class="margin">COURSE CONTENTS:</h2>
   
   <ul style="margin-left: 12%; list-style-type:disc; text-align: left;">
     <li>Introduction to Process & Flow Simulation and their Pre-requisites</li>
@@ -144,7 +161,7 @@
   </ul>
 
   <br><br>
-  <h3 class="margin">RESOURCE PERSONS</h3>
+  <h2 class="margin">RESOURCE PERSONS</h2>
   <p>
     Experienced faculty members of Chemical
     Engineering Department, NIT, Warangal will
@@ -157,7 +174,7 @@
 
 <div class="container-fluid bg-2" id="register">
   <div class="container">
-    <h3 class="margin text-center">REGISTRATION</h3>
+    <h1 class="margin text-center">REGISTRATION</h1>
 
     <h4><span class="glyphicon glyphicon-play"></span> Who Can Apply :</h4>
     <p>This program is open to the Undergraduate students, Postgraduate students and Research scholars of Chemical Engineering. Undergraduate students need to have completed at least III year to be eligible.</p>
@@ -165,7 +182,7 @@
 
 
     <h4><span class="glyphicon glyphicon-play"></span> How to Apply :</h4>
-    <p>Eligible candidates may apply online through <a href="https://drive.google.com/open?id=18C8cvbGseua9BbkcVJYtcYuut-WgpS0a9ToMrTlvH4Q" class="btn btn-primary">ONLINE REGISTRATION</a> on or before 08-05-2018. </p>
+    <p>Eligible candidates may apply online through <a href="https://drive.google.com/open?id=18C8cvbGseua9BbkcVJYtcYuut-WgpS0a9ToMrTlvH4Q" class="btn btn-primary">ONLINE REGISTRATION</a> on or before <b>08-05-2018.</b> </p>
     <br>
     <h4><span class="glyphicon glyphicon-play"></span> Confirmation of Participation :</h4>
     <p>
@@ -178,8 +195,8 @@
     <h4><span class="glyphicon glyphicon-play"></span>Registration Fee :</h4>
     <p>
       <ul style=" list-style-type:disc; text-align: left;">
-        <li>Course Fee:      Rs. 4,000/-</li>
-        <li>Boarding & Lodging Fee:  Rs. 2,500/-</li>
+        <li>Course Fee :      <span class="attentio"> <b>Rs. 4,000/-</b></span></li>
+        <li>Boarding & Lodging Fee :  <span class="attentio"><b>Rs. 2,500/-</b></span></li>
       </ul>
       
     
@@ -190,7 +207,7 @@
     <br>
     
 
-    <h3>
+    <h3 class="blink">
     The number of participants is limited to 60. Candidates are advised to register early to avoid disappointment.
     </h3>
 
@@ -205,9 +222,28 @@
   </div>
 </div>
 
+<div class="container-fluid bg-1 text-center">
+
+    <h1>IMPORTANT DATES</h1>
+    <br>
+
+    <ul style="margin-left: 15%; list-style-type:disc; text-align: left;">
+        <li>Last date for online submission of the Registration forms : <span class="attention">&nbsp;&nbsp; <b>8th May 2018</b></span></li>
+        <li>Last date for Payment of requisite fees (after shortlisting) : <span class="attention">&nbsp;&nbsp; <b>15th May 2018</b></span></li>
+        <li>Intimation of Confirmation : <span class="attention">&nbsp;&nbsp; <b>22nd May 2018</b></span></li>
+      </ul>
+
+
+
+
+
+
+
+</div>
+
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center" id="contact">
-  <h3 class="margin text-center">ADDRESS FOR COMMUNICATION:</h3>
+<footer class="container-fluid bg-2 text-center" id="contact">
+  <h2 class="margin text-center">ADDRESS FOR COMMUNICATION:</h2>
 
   <ul style="list-style-type:none; font-size: 0.8em;">
       <li>
